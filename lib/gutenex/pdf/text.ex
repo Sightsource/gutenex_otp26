@@ -22,7 +22,7 @@ defmodule Gutenex.PDF.Text do
   end
 
   def write_text_br(text_to_write) do
-    write_text(text_to_write) <> break_text
+    write_text(text_to_write) <> break_text()
   end
 
   def render_mode(mode) do
